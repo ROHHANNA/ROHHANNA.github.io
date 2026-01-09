@@ -1,0 +1,173 @@
+@charset "utf-8";
+/*CSS Document*/
+
+/*++++++++  Media Query  ++++++++*/
+/*------- Mobile(start)  -----*/
+@media screen and (max-width: 767px) {
+	/*-------------------------- Main _ Visual ---------------------------*/
+	.main_viusal {width: 100%;}	
+	.wraper {width: 100%; height:100%;}
+	.main_banner {width: 100%; height: 380px; position: relative; background:url("../images/main_banner.png"); margin-top:70px; background-size: cover; background-position: center center;}
+	.main_banner::after {content:""; width:100%; height:60px;background:url("../images/banner_after.png"); background-size:cover; background-position: 50% 0; position: absolute; bottom:-1px; left: 0; z-index: 50;}
+	.main_banner .title {position: absolute; height:100px; top:40%; transform: translate(0,-50%);}
+	.main_banner .title .title1 {color:#fff; font-size: 16px; font-weight: bold;font-family: 'NotoSansKR-Medium'; padding-bottom: 20px;}
+	.main_banner .title .title1_en {color:#fff; font-size: 14px;}
+	/*---------------------------- content ------------------------------*/
+	.content {width: 100%; height: 100%;}
+	.content .title {text-align: center; padding-bottom: 5px;}
+	.content .title_en {position: relative; font-size: 15px; text-align:center;z-index: 0; font-family: 'NotoSansKR-Medium';font-weight: bold; }
+	.content .title_en::after {content:""; background-color: #76e863; width: 15px; height: 15px; position: absolute; z-index: -1; top: -2px; left: -7px;}
+	.content .title_en2 {display: none;}
+	.content .title_en2m {padding: 0 15px; margin-top: 20px; font-size: 13px; color: #5e5e5e; margin-bottom: 30px;}
+	.content .title_en2m .bold {color: #000; font-family: 'NotoSansKR-Medium';}
+	/*-------------------------------introduce_m-------------------------------------*/
+	.introduce {position: relative; padding-bottom:20px;}
+	.introduce img {width: 100%;}
+	.introduce .greenpark_introduce {position: relative; width: 49%; float: left;   margin-right: 2%;transition: box-shadow .3s; margin-bottom: 2%;}
+	.introduce .greenpark_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 45px;  transition: box-shadow .3s;}
+	.introduce .greenpark_introduce:hover {box-shadow: 0 0 10px rgba(0,0,0,.8);}
+	.introduce .greenpark_introduce .text p {color: #fff; font-size: 16px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 10px;}
+
+	.introduce .Postbiotics_introduce {position: relative; width: 49%; float: left; margin-right: 0; transition: box-shadow .3s; margin-bottom: 2%;}
+	.introduce .Postbiotics_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 45px;  transition: box-shadow .3s;}
+	.introduce .Postbiotics_introduce:hover {box-shadow: 0 0 10px rgba(0,0,0,.8);}
+	.introduce .Postbiotics_introduce .text p {color: #fff; font-size: 16px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 10px;}
+	
+	.introduce .service {position: relative;width: 49%; float: left; transition: box-shadow .3s; margin-right: 2%;margin-bottom: 2%;}
+	.introduce .service .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 45px;  transition: box-shadow .3s;}
+	.introduce .service:hover {box-shadow: 0 0 10px rgba(0,0,0,.8);}
+	.introduce .service .text p {color: #fff; font-size: 16px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 10px;}
+
+	.introduce .livestock_introduce {position: relative; width: 49%; float: left;  transition: box-shadow .3s; margin-right: 0;margin-bottom: 2%;}
+	.introduce .livestock_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 45px;  transition: box-shadow .3s;}
+	.introduce .livestock_introduce:hover {box-shadow: 0 0 10px rgba(0,0,0,.8);}
+	.introduce .livestock_introduce .text p {color: #fff; font-size: 16px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 10px;}
+
+	.introduce .land_introduce {position: relative; width: 49%; float: left; transition: box-shadow .3s;}
+	.introduce .land_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 45px;  transition: box-shadow .3s;}
+	.introduce .land_introduce:hover {box-shadow: 0 0 10px rgba(0,0,0,.8);}
+	.introduce .land_introduce .text p {color: #fff; font-size: 16px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 10px;}
+	
+
+
+	/*scroll_btn*/
+	#scroll_btn {position: fixed; bottom: 5px; right: 5px;}
+	#scroll_btn img {width: 30px;}
+	#tp_br {display: none;}
+	
+}
+/*------  Mobile(end)  ----*/
+
+/*+++++++++++++++++++++++++++++++*/
+/*-------   Tablet(start)   -----*/
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+
+	/*-------------------------- Main _ Visual ---------------------------*/
+	.main_viusal {width: 100%;}	
+	.wraper {width: 100%; height:100%;}
+	.main_banner {width: 100%; height: 530px; position: relative; background:url("../images/main_banner.png"); margin-top:70px; background-size: cover; background-position: center center;}
+	.main_banner::after {content:""; width:100%; height:90px;background:url("../images/banner_after.png"); background-size:cover; background-position: 50% 0; position: absolute; bottom:-1px; left: 0; z-index: 50;}
+	.main_banner .title {position: absolute; height:100px; top:37%; transform: translate(0,-50%);}
+	.main_banner .title .title1 {color:#fff; font-size: 20px; font-weight: bold;font-family: 'NotoSansKR-Medium'; padding-bottom: 20px;}
+	.main_banner .title .title1_en {color:#fff; font-size: 16px;}
+	/*---------------------------- content ------------------------------*/
+	.content {width: 100%; background:url("../images/main_bg1.png") center center; background-size:cover; padding-bottom: 50px;}
+	.content .title {text-align: center; }
+	.content .title_en {position: relative; font-size: 20px; text-align:center;z-index: 0; font-family: 'NotoSansKR-Medium';font-weight: bold; }
+	.content .title_en::after {content:""; background-color: #76e863; width: 20px; height: 20px; position: absolute; z-index: -1; top: 1px; left: -12px;}
+	.content .title_en2 {margin-top: 20px; font-size: 16px; color: #5e5e5e; margin-bottom: 40px;}
+	.content .title_en2 .bold {color: #000; font-family: 'NotoSansKR-Medium';}
+	/*-------------------------------introduce-------------------------------------*/
+
+	.introduce {position: relative;}
+	.introduce .greenpark_introduce {position: relative; width: 32%; float: left;   margin-right: 2%;transition: box-shadow .3s; margin-bottom: 2%;}
+	.introduce .greenpark_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 50px;  transition: box-shadow .3s;}
+	.introduce .greenpark_introduce:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce .greenpark_introduce .text p {color: #fff; font-size: 16px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 12px;}
+
+	.introduce .Postbiotics_introduce {position: relative; width: 32%; float: left;   margin-right: 2%;transition: box-shadow .3s; margin-bottom: 2%;}
+	.introduce .Postbiotics_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 50px;  transition: box-shadow .3s;}
+	.introduce .Postbiotics_introduce:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce .Postbiotics_introduce .text p {color: #fff; font-size: 16px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 12px;}
+	
+	.introduce .service {position: relative;width: 32%; float: left; transition: box-shadow .3s;}
+	.introduce .service .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 50px;  transition: box-shadow .3s;}
+	.introduce .service:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce .service .text p {color: #fff; font-size: 16px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 12px;}
+
+	.introduce .livestock_introduce {position: relative; margin-left: 17%; width: 32%; float: left;   margin-right: 2%;transition: box-shadow .3s;}
+	.introduce .livestock_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 50px;  transition: box-shadow .3s;}
+	.introduce .livestock_introduce:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce .livestock_introduce .text p {color: #fff; font-size: 16px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 12px;}
+
+	.introduce .land_introduce {position: relative; margin-right: 17%; width: 32%; float: left;   margin-right: 2%;transition: box-shadow .3s;}
+	.introduce .land_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 50px;  transition: box-shadow .3s;}
+	.introduce .land_introduce:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce .land_introduce .text p {color: #fff; font-size: 16px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 12px;}
+
+	.introduce img {width:100%;}
+	/*scroll_btn*/
+	#scroll_btn {position: fixed; bottom: 5px; right: 5px;}
+	#scroll_btn img {width: 35px;}
+	#m_br {display: none;}
+	.introduce_m {display: none;}
+	.title_en2m {display: none;}
+}
+/*---------   Tablet(end)   ----*/
+
+/*++++++++++++++++++++++++++++++++*/
+/*-------   Desktop(start)   -----*/
+@media screen and (min-width: 1025px) {
+
+	/*-------------------------- Main _ Visual ---------------------------*/
+	.main_viusal {width: 100%;}	
+	.wraper {width: 100%; height:100%;}
+	.main_banner {width: 100%; height: 660px; position: relative; background:url("../images/main_banner.png"); margin-top:100px; background-size: cover; background-position: center center;}
+	.main_banner::after {content:""; width:100%; height:90px;background:url("../images/banner_after.png"); background-size:cover; background-position: 50% 0; position: absolute; bottom:0; left: 0; z-index: 50;}
+	.main_banner .title {position: absolute; height:100px; top:40%; transform: translate(0,-50%);}
+	.main_banner .title .title1 {color:#fff; font-size: 28px; font-weight: bold;font-family: 'NotoSansKR-Medium'; padding-bottom: 30px;}
+	.main_banner .title .title1_en {color:#fff; font-size: 20px;}
+	/*---------------------------- content ------------------------------*/
+	.content {width: 100%; background:url("../images/main_bg1.png") center center; padding-bottom: 80px;}
+	.content .title {text-align: center; padding-top: 80px;}
+	.content .title_en {position: relative; font-size: 28px; text-align:center;z-index: 0; font-family: 'NotoSansKR-Medium';font-weight: bold; }
+	.content .title_en::after {content:""; background-color: #76e863; width: 20px; height: 20px; position: absolute; z-index: -1; top: 1px; left: -12px;}
+	.content .title_en2 {margin-top: 40px; font-size: 18px; color: #5e5e5e; margin-bottom: 70px;}
+	.content .title_en2 .bold {color: #000; font-family: 'NotoSansKR-Medium';}
+	/*-------------------------------introduce-------------------------------------*/
+
+	.introduce {position: relative;}
+	.introduce .greenpark_introduce {position: relative; width: 32%; float: left;   margin-right: 2%;transition: box-shadow .3s; margin-bottom: 2%;}
+	.introduce .greenpark_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 90px;  transition: box-shadow .3s;}
+	.introduce .greenpark_introduce:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce .greenpark_introduce .text p {color: #fff; font-size: 20px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 30px;}
+
+	.introduce .Postbiotics_introduce {position: relative; width: 32%; float: left;   margin-right: 2%;transition: box-shadow .3s;margin-bottom: 2%;}
+	.introduce .Postbiotics_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 90px;  transition: box-shadow .3s;}
+	.introduce .Postbiotics_introduce:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce .Postbiotics_introduce .text p {color: #fff; font-size: 20px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 30px;}
+	
+	.introduce .service {position: relative;width: 32%; float: left; transition: box-shadow .3s;}
+	.introduce .service .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 90px;  transition: box-shadow .3s;}
+	.introduce .service:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce .service .text p {color: #fff; font-size: 20px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 30px;}
+
+	.introduce .livestock_introduce {position: relative; margin-left: 17%; width: 32%; float: left;   margin-right: 2%;transition: box-shadow .3s;}
+	.introduce .livestock_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 90px;  transition: box-shadow .3s;}
+	.introduce .livestock_introduce:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce .livestock_introduce .text p {color: #fff; font-size: 20px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 30px;}
+
+	.introduce .land_introduce {position: relative; margin-right: 17%; width: 32%; float: left;   margin-right: 2%;transition: box-shadow .3s;}
+	.introduce .land_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 90px;  transition: box-shadow .3s;}
+	.introduce .land_introduce:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce .land_introduce .text p {color: #fff; font-size: 20px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 30px;}
+
+	.introduce img {width:100%;}
+	/*scroll_btn*/
+	#scroll_btn {position: fixed; bottom: 5px; right: 5px;}
+	#scroll_btn img {width: 40px;}
+	#m_br {display: none;}
+	.introduce_m {display: none;}
+	.title_en2m {display: none;}
+}
+/*--------   Desktop(end)   -----*/

@@ -1,0 +1,356 @@
+@charset "utf-8";
+/*CSS Document*/
+
+/*++++++++  Media Query  ++++++++*/
+/*------- Mobile(start)  -----*/
+@media screen and (max-width: 767px) {
+
+	.postbiotics { width: 100%;}
+	.postbiotics .postbiotics_banner { position: relative; height: 148px;; margin-top: 70px; background:url("../images/pro_main_banner_m.png")center center no-repeat; }
+	.postbiotics .title {text-align: center; padding: 30px 0;}
+	.postbiotics .title > span {position: relative; z-index: 0; font-size: 16px; font-family: 'NotoSansKR-Medium'; font-weight: bold;}
+	.postbiotics .title > span::after {content:""; background-color: #76e863; width: 15px; height: 15px; position: absolute; z-index: -1; top:-2px; left: -7px;}
+	/*click*/
+	.click {position: relative; width: 100%; border-bottom: 1px solid #055223;}
+	.click1 {float: left; width: 43%; height: 40px; border-top: 1px solid #ddd;  border-left: 1px solid #ddd;  border-right: 1px solid #ddd;  text-align: center; padding-top: 9px; font-size: 13px;}
+	.click2 {float: left; width: 16%; height: 40px; border-top: 1px solid #ddd;  border-left: 1px solid #ddd;  border-right: 1px solid #ddd;  text-align: center; padding-top: 9px; font-size: 13px;}
+	.click3 {float: left; width: 13%; height: 40px; color: #fff; background: #055223; border-top: 1px solid #ddd;  border-left: 1px solid #ddd;  border-right: 1px solid #ddd; text-align: center; padding-top: 9px; font-size: 13px;}
+	.click4 {float: left; width: 14%; height: 40px; border-top: 1px solid #ddd;  border-left: 1px solid #ddd;  border-right: 1px solid #ddd;  text-align: center; padding-top: 9px; font-size: 13px;}
+	.click5 {float: left; width: 14%; height: 40px; border-top: 1px solid #ddd;  border-left: 1px solid #ddd;  border-right: 1px solid #ddd;  text-align: center; padding-top: 9px; font-size: 13px;}
+	
+
+	/*click_in*/
+	/*����Ʈ���̿�ƽ��*/
+	.click1img {display: none; width: 100%; text-align: center; padding: 30px 0 30px 0;}
+	.click1img .titles {font-size: 16px; font-family: 'NotoSansKR-Medium';}
+	.click1img .titles span img {width: 25px; margin-right:5px;}
+	.titles_en {font-size: 14px; padding: 20px 0 30px 0; font-family: 'NotoSansKR-Medium'; font-weight: bold;}
+	.titles_en #green {color: #055223;}
+	.divs {}
+	
+	.divs .left .left_img {width: 100%;border: 1px solid #ddd;}
+	.divs .left .left_img img {width: 80%;}
+	.divs .left .left_title {font-size: 14px; font-weight: bold; padding: 15px 0;}
+	.divs .left .left_title2 {font-size: 13px; margin-bottom: 20px;}
+
+	.divs .right .right_img {width: 100%; border: 1px solid #ddd;}
+	.divs .right .right_img img {width: 80%;}
+	.divs .right .right_title {font-size: 14px; font-weight: bold; padding: 15px 0;}
+	.divs .right .right_title2 {font-size: 13px;}
+	.divs .right .right_title2 span {font-weight: bold; color: #a71d1d;}
+
+	/*������*/
+	.click2img {display: none; width: 100%; text-align: center; padding: 30px 0;}
+	.click2img img {width: 100%;}
+	.click2img .titles {font-size: 16px; font-family: 'NotoSansKR-Medium'; margin-bottom: 15px;}
+	.click2img .titles span img {width: 25px; margin-right:5px;}
+	.problem {padding-bottom: 15px;}
+
+	.problem .problem1 .img {width: 100%; height: 100%; background: #f3f3f3;}
+	.problem .problem_title {font-size: 16px; font-weight: bold; padding: 15px 0;}
+	.problem .problem_title_en {font-size: 13px; color:#353535; margin-bottom: 20px;}
+
+	.problem .problem2 .img {width: 100%; height: 100%; background: #f3f3f3;}
+
+	.problem .problem3 .img {width: 100%; height: 100%; background: #f3f3f3;}
+	.line {width:100%; height: 1px; background: #f1f1f1; margin-bottom: 30px;}
+
+	.benefit {padding-bottom: 10px;}
+	.benefit .benefit1 {float: left; width: 48.5%; margin-right: 1.5%;}
+	.benefit .benefit2 {float: left; width: 49%; margin-right: 0;}
+	.benefit .benefit3 {float: left; width: 48.5%; margin-right: 1.5%;}
+	.benefit .benefit4 {float: left; width: 49%; margin-right: 0;}
+	.benefit .img {width: 100%; height: 100%; background: #f3f3f3;}
+	.benefit .benefit_title {padding: 10px 0 20px 0; font-size: 13px; font-weight: bold;}
+
+	.tro_benefit .img {width: 100%; height: 160px; background: #f3f3f3;}
+	.tro_benefit .tro_before {float: left; width: 49%; margin-right: 2%;}
+	.tro_benefit .tro_after {float: left; width: 49%; margin-right: 0;}
+	.tro_benefit p {font-size: 14px; font-weight: bold; padding: 20px 0 30px 0; }
+
+	.products {text-align: center;}
+	.products .products_img {margin: 0 auto; }
+	.products .products_img .imgs {float: left; width: 60%; margin-right: 2%; height: 100%; }
+	.products .products_img .imgs2 img {width: 100%;}
+	.products .products_img .imgs2 {float: left; width: 37.6%; height: 100%; background: #f3f3f3;}
+	.producst_introduce {margin-right: 0;}
+	.products_title {font-size: 14px; font-weight: bold; padding: 20px 0;}
+	.products_title_en {font-size: 13px; line-height: 1.7;}
+	.products_title_en span {font-weight: bold; color: #a71d1d;}
+
+
+	/*����*/
+	.click3img {width: 100%; text-align: center; padding-top: 30px;}
+	.click3img img {width: 100%;}
+	.click3img .titles {font-size: 16px; font-family: 'NotoSansKR-Medium'; margin-bottom: 30px;}
+	.click3img .titles span img {width: 25px; margin-right:5px;}
+	.water_introduce {}
+	.water_introduce .img {width: 100%;}
+	.water_title {font-size: 16px; font-weight: bold; padding: 20px 0 5px 0;}
+	.water_title_map {font-size: 14px; color: #353535; padding-bottom: 30px;}
+	.water1 .img {background: #fff;}
+	.water_before {position: relative; float: left; width: 49.8%; margin-right: 0.4%; background: #f3f3f3;}
+	.water_titles {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 40px;}
+	.water_titles p {font-size: 15px; padding-top: 9px; color: #fff;}
+	.water_after {position: relative;float:left; width: 49.8%; margin-right: 0; background: #f3f3f3;}
+
+
+
+	/*���*/
+	.click4img {display: none; width: 100%; height: 60vh; background: #fff; padding-top: 180px;}
+	.click4img p {text-align: center;}
+	.click5img {display: none; width: 100%; height: 60vh; background: #fff; padding-top: 180px;}
+	.click5img p {text-align: center;}
+	.click6img {display: none; width: 100%; height: 60vh; background: #fff; padding-top: 180px;}
+	.click6img p {text-align: center;}
+	/**/
+	.pc_br { display:none; }
+	#wi {display:none;}
+	/*scroll_event*/
+	#move01 { opacity: 0; margin-top: 8%; }
+	#move02 { opacity: 0; margin-top: 5%; }
+	#move03 { opacity: 0; margin-top: 3%; }
+
+	/*scroll_btn*/
+	#scroll_btn {position: fixed; bottom: 5px; right: 5px;}
+	#scroll_btn img {width: 30px;}
+
+
+
+}
+/*------  Mobile(end)  ----*/
+
+/*+++++++++++++++++++++++++++++++*/
+/*-------   Tablet(start)   -----*/
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+
+	.postbiotics { width: 100%;}
+	.postbiotics .postbiotics_banner { position: relative; height: 200px; margin-top: 70px; background:url("../images/pro_main_banner.png")center center no-repeat; }
+	.postbiotics .title {text-align: center; padding: 40px 0;}
+	.postbiotics .title > span {position: relative; z-index: 0; font-size: 18px; font-family: 'NotoSansKR-Medium'; font-weight: bold;}
+	.postbiotics .title > span::after {content:""; background-color: #76e863; width: 20px; height: 20px; position: absolute; z-index: -1; top: 0px; left: -12px;}
+	/*click*/
+	.click {position: relative; width: 100%; border-bottom: 1px solid #055223;}
+	.click1 {float: left; width: 20%; padding: 15px 0; border-top: 1px solid #ddd;  border-left: 1px solid #ddd;  border-right: 1px solid #ddd;  text-align: center; padding-top: 11px; font-size: 16px;}
+	.click2 {float: left; width: 20%; padding: 15px 0; border-top: 1px solid #ddd;  border-left: 1px solid #ddd;  border-right: 1px solid #ddd;  text-align: center; padding-top: 11px; font-size: 16px;}
+	.click3 {float: left; width: 20%; padding: 13px 0; color: #fff; background: #055223; border-top: 1px solid #ddd;  border-left: 1px solid #ddd;  border-right: 1px solid #ddd; text-align: center; font-size: 16px;}
+	.click4 {float: left; width: 20%; padding: 15px 0; border-top: 1px solid #ddd;  border-left: 1px solid #ddd;  border-right: 1px solid #ddd;  text-align: center; padding-top: 11px; font-size: 16px;}
+	.click5 {float: left; width: 20%; padding: 15px 0; border-top: 1px solid #ddd;  border-left: 1px solid #ddd;  border-right: 1px solid #ddd;  text-align: center; padding-top: 11px; font-size: 16px;}
+	
+
+	/*click_in*/
+	/*����Ʈ���̿�ƽ��*/
+	.click1img {display: none; width: 100%; text-align: center; padding: 40px 0 50px 0;}
+	.click1img .titles {font-size: 16px; font-family: 'NotoSansKR-Medium';}
+	.click1img .titles span img {width: 25px; margin-right:5px;}
+	.titles_en {font-size: 16px; padding: 20px 0 40px 0; font-family: 'NotoSansKR-Medium'; font-weight: bold;}
+	.titles_en #green {color: #055223;}
+	.divs {}
+	.divs .left {float: left; width: 49%; margin-right: 2%;}
+	.divs .left .left_img {width: 100%;}
+	.divs .left .left_img img {width: 100%;border: 1px solid #ddd;}
+	.divs .left .left_title {font-size: 16px; font-weight: bold; padding: 30px 0 20px 0;}
+	.divs .left .left_title2 {font-size: 15px;}
+	.divs .right {float: left; width: 49%; margin-right: 0;}
+	.divs .right .right_img {width: 100%;border: 1px solid #ddd;}
+	.divs .right .right_img img {width: 100%;}
+	.divs .right .right_title {font-size: 16px; font-weight: bold; padding: 30px 0 20px 0;}
+	.divs .right .right_title2 {font-size: 15px;}
+	.divs .right .right_title2 span {font-weight: bold; color: #a71d1d;}
+	/*������*/
+	.click2img {display: none; width: 100%; text-align: center; padding: 30px 0 50px 0;}
+	.click2img img {width: 100%;}
+	.click2img .titles {font-size: 16px; font-family: 'NotoSansKR-Medium'; margin-bottom: 30px;}
+	.click2img .titles span img {width: 25px; margin-right:5px;}
+	.problem {padding-bottom: 30px;}
+	.problem .problem1 {float: left; width: 32%; margin-right: 1.5%;}
+	.problem .problem1 .img {width: 100%; height: 100%; background: #f3f3f3;}
+	.problem .problem_title {font-size: 16px; font-weight: bold; padding: 20px 0 10px 0;}
+	.problem .problem_title_en {font-size: 14px; color:#353535;}
+	.problem .problem2 {float: left; width: 32%; margin-right: 1.5%;}
+	.problem .problem2 .img {width: 100%; height: 100%; background: #f3f3f3;}
+	.problem .problem3 {float: left; width: 32%; margin-right: 0;}
+	.problem .problem3 .img {width: 100%; height: 100%; background: #f3f3f3;}
+	.line {width:100%; height: 1px; background: #f1f1f1; margin-bottom: 30px;}
+
+	.benefit {}
+	.benefit .benefit1 {float: left; width: 24%; margin-right: 1.3%;}
+	.benefit .benefit2 {float: left; width: 24%; margin-right: 1.3%;}
+	.benefit .benefit3 {float: left; width: 24%; margin-right: 1.3%;}
+	.benefit .benefit4 {float: left; width: 24%; margin-right: 0;}
+	.benefit .img {width: 100%; height: 100%; background: #f3f3f3;}
+	.benefit .benefit_title {padding: 20px 0 30px 0; font-size: 16px; font-weight: bold;}
+
+	.tro_benefit .img {width: 100%; height: 200px; background: #f3f3f3;}
+	.tro_benefit .tro_before {float: left; width: 49%; margin-right: 2%;}
+	.tro_benefit .tro_after {float: left; width: 49%; margin-right: 0;}
+	.tro_benefit p {font-size: 16px; font-weight: bold; padding: 30px 0 30px 0; }
+
+	.products {text-align: center;}
+	.products .products_img {margin: 0 auto; }
+	.products .products_img .imgs {float: left; width: 49%; margin-right: 2%; margin-left: 9.2%;height: 100%; }
+	.products .products_img .imgs2 img {width: 100%;}
+	.products .products_img .imgs2 {float: left; width: 30.6%; margin-right: 9.2%;height: 100%; background: #f3f3f3;}
+	.producst_introduce {margin-right: 0;}
+	.products_title {font-size: 16px; font-weight: bold; padding: 40px 0 20px 0;}
+	.products_title_en {font-size: 14px; line-height: 1.7;}
+	.products_title_en span {font-weight: bold; color: #a71d1d;}
+
+
+
+	/*����*/
+	.click3img {width: 100%; text-align: center; padding-top: 30px;}
+	.click3img img {width: 100%;}
+	.click3img .titles {font-size: 16px; font-family: 'NotoSansKR-Medium'; margin-bottom: 30px;}
+	.click3img .titles span img {width: 25px; margin-right:5px;}
+	.water_introduce {}
+	.water_introduce .img {width: 100%;}
+	.water_title {font-size: 16px; font-weight: bold; padding: 20px 0 5px 0;}
+	.water_title_map {font-size: 14px; color: #353535; padding-bottom: 30px;}
+	.water1 {float: left; width: 49%; margin-right: 2%;}
+	.water1 .img {background: #fff;}
+	.water_before {position: relative; float: left; width: 49.8%; margin-right: 0.4%; background: #f3f3f3;}
+	.water_titles {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 40px;}
+	.water_titles p {font-size: 15px; padding-top: 9px; color: #fff;}
+	.water_after {position: relative;float:left; width: 49.8%; margin-right: 0; background: #f3f3f3;}
+	.water2 {float: left; width: 49%; margin-right: 0;}
+	.water3 {float: left; width: 49%; margin-right: 2%;}
+	.water4 {float: left; width: 49%; margin-right: 0;}
+
+
+	/*���*/
+	.click4img {display: none; width: 100%; height: 60vh; background: #fff; padding-top: 180px;}
+	.click4img p {text-align: center;}
+	.click5img {display: none; width: 100%; height: 60vh; background: #fff; padding-top: 180px;}
+	.click5img p {text-align: center;}
+	.click6img {display: none; width: 100%; height: 60vh; background: #fff; padding-top: 180px;}
+	.click6img p {text-align: center;}
+	/**/
+	.pc_br { display:none; }
+	#wi {display:none;}
+	#m_br {display: none;}
+
+	/*scroll_btn*/
+	#scroll_btn {position: fixed; bottom: 5px; right: 5px;}
+	#scroll_btn img {width: 35px;}
+
+}
+/*---------   Tablet(end)   ----*/
+
+/*++++++++++++++++++++++++++++++++*/
+/*-------   Desktop(start)   -----*/
+@media screen and (min-width: 1025px) {
+	/* ------------------------------------------------ section.sec_visual ------------------------------------------------*/
+	.postbiotics { width: 100%;}
+	.postbiotics .postbiotics_banner { position: relative; height: 330px;; margin-top: 100px; background:url("../images/pro_main_banner.png")no-repeat; background-size:100%; }
+	.postbiotics .title {text-align: center; padding: 70px 0;}
+	.postbiotics .title > #after {position: relative; z-index: 0; font-size: 26px; font-family: 'NotoSansKR-Medium'; font-weight: bold;}
+	.postbiotics .title > #after::after {content:""; background-color: #76e863; width: 20px; height: 20px; position: absolute; z-index: -1; top: 0px; left: -12px;}
+	/*click*/
+	.click {position: relative; width: 100%; border-bottom: 1px solid #055223;}
+	.click1 {float: left; width: 20%; height: 60px; border-top: 1px solid #ddd;  border-left: 1px solid #ddd;  border-right: 1px solid #ddd;  text-align: center; padding-top: 16px; font-size: 18px;}
+	.click2 {float: left; width: 20%; height: 60px; border-top: 1px solid #ddd;  border-left: 1px solid #ddd;  border-right: 1px solid #ddd;  text-align: center; padding-top: 16px; font-size: 18px;}
+	.click3 {float: left; width: 20%; height: 60px; color: #fff; background: #055223; border-top: 1px solid #ddd;  border-left: 1px solid #ddd;  border-right: 1px solid #ddd; text-align: center; padding-top: 16px; font-size: 18px;}
+	.click4 {float: left; width: 20%; height: 60px; border-top: 1px solid #ddd;  border-left: 1px solid #ddd;  border-right: 1px solid #ddd;  text-align: center; padding-top: 16px; font-size: 18px;}
+	.click5 {float: left; width: 20%; height: 60px; border-top: 1px solid #ddd;  border-left: 1px solid #ddd;  border-right: 1px solid #ddd;  text-align: center; padding-top: 16px; font-size: 18px;}
+
+	/*click_in*/
+	/*����Ʈ���̿�ƽ��*/
+	.click1img {display: none; width: 100%; text-align: center; padding: 50px 0 60px 0;}
+	.click1img .titles {font-size: 20px; font-family: 'NotoSansKR-Medium';}
+	.click1img .titles span img {width: 32px; margin-right:8px;}
+	.titles_en {font-size: 20px; padding: 30px 0 50px 0; font-family: 'NotoSansKR-Medium'; font-weight: bold;}
+	.titles_en #green {color: #055223;}
+	.divs {}
+	.divs .left {float: left; width: 49%; margin-right: 2%;}
+	.divs .left .left_img {width: 100%;border: 1px solid #ddd;}
+	.divs .left .left_img img {width: 75%;}
+	.divs .left .left_title {font-size: 20px; font-weight: bold; padding: 30px 0 20px 0;}
+	.divs .right {float: left; width: 49%; margin-right: 0;}
+	.divs .right .right_img {width: 100%;border: 1px solid #ddd;}
+	.divs .right .right_img img {width: 75%;}
+	.divs .right .right_title {font-size: 20px; font-weight: bold; padding: 30px 0 20px 0;}
+	.divs .right .right_title2 span {font-weight: bold; color: #a71d1d;}
+
+		/*������*/
+	.click2img {display: none; width: 100%; text-align: center; padding: 50px 0 60px 0;}
+	.click2img img {width: 100%;}
+	.click2img .titles {font-size: 20px; font-family: 'NotoSansKR-Medium'; margin-bottom: 50px;}
+	.click2img .titles span img {width: 32px; margin-right:8px;}
+	.problem {padding-bottom: 50px;}
+	.problem .problem1 {float: left; width: 32%; margin-right: 1.5%;}
+	.problem .problem1 .img {width: 100%; height: 100%; background: #f3f3f3;}
+	.problem .problem_title {font-size: 20px; font-weight: bold; padding: 30px 0 20px 0;}
+	.problem .problem_title_en {font-size: 16px; color:#353535;}
+	.problem .problem2 {float: left; width: 32%; margin-right: 1.5%;}
+	.problem .problem2 .img {width: 100%; height: 100%; background: #f3f3f3;}
+	.problem .problem3 {float: left; width: 32%; margin-right: 0;}
+	.problem .problem3 .img {width: 100%; height: 100%; background: #f3f3f3;}
+	.line {width:100%; height: 1px; background: #f1f1f1; margin-bottom: 50px;}
+
+	.benefit {}
+	.benefit .benefit1 {float: left; width: 24%; margin-right: 1.3%;}
+	.benefit .benefit2 {float: left; width: 24%; margin-right: 1.3%;}
+	.benefit .benefit3 {float: left; width: 24%; margin-right: 1.3%;}
+	.benefit .benefit4 {float: left; width: 24%; margin-right: 0;}
+	.benefit .img {width: 100%; height: 100%; background: #f3f3f3;}
+	.benefit .benefit_title {padding: 30px 0 50px 0; font-size: 18px; font-weight: bold;}
+
+	.tro_benefit .img {width: 100%; height: 300px; background: #f3f3f3;}
+	.tro_benefit .tro_before {float: left; width: 49%; margin-right: 2%;}
+	.tro_benefit .tro_after {float: left; width: 49%; margin-right: 0;}
+	.tro_benefit p {font-size: 18px; font-weight: bold; padding: 30px 0 50px 0; }
+
+	.products {text-align: center;}
+	.products .products_img {margin: 0 auto; }
+	.products .products_img .imgs {float: left; width: 49%; margin-right: 2%; margin-left: 9.2%;height: 100%; }
+	.products .products_img .imgs2 img {width: 100%;}
+	.products .products_img .imgs2 {float: left; width: 30.6%; margin-right: 9.2%;height: 100%; background: #f3f3f3;}
+	.producst_introduce {margin-right: 0;}
+	.products_title {font-size: 20px; font-weight: bold; padding: 50px 0 30px 0;}
+	.products_title_en {font-size: 18px; line-height: 1.7;}
+	.products_title_en span {font-weight: bold; color: #a71d1d;}
+
+
+
+
+	/*����*/
+	.click3img {width: 100%; text-align: center; padding: 50px 0;}
+	.click3img img {width: 100%;}
+	.click3img .titles {font-size: 20px; font-family: 'NotoSansKR-Medium'; margin-bottom: 50px;}
+	.click3img .titles span img {width: 32px; margin-right:8px;}
+	.water_introduce {}
+	.water_introduce .img {width: 100%; background: #f3f3f3;}
+	.water_title {font-size: 18px; font-weight: bold; padding: 30px 0 5px 0;}
+	.water_title_map {font-size: 16px; color: #353535; padding-bottom: 30px;}
+	.water1 {float: left; width: 49%; margin-right: 2%;}
+	.water1 .img {background: #fff;}
+	.water_before {position: relative; float: left; width: 49.8%; margin-right: 0.4%; background: #f3f3f3;}
+	.water_titles {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 60px;}
+	.water_titles p {font-size: 20px; padding-top: 15px; color: #fff;}
+	.water_after {position: relative;float:left; width: 49.8%; margin-right: 0; background: #f3f3f3;}
+	.water2 {float: left; width: 49%; margin-right: 0;}
+	.water3 {float: left; width: 49%; margin-right: 2%;}
+	.water4 {float: left; width: 49%; margin-right: 0;}
+	/*���*/
+	.click4img {display: none; width: 100%; height: 400px; background: #fff; padding-top: 180px;}
+	.click4img p {text-align: center;}
+	/*�Ӿ�*/
+	.click5img {display: none; width: 100%; height: 400px; background: #fff; padding-top: 180px;}
+	.click5img p {text-align: center;}
+
+
+	/*scroll_event*/
+	#move01 { opacity: 0; margin-top: 8%; }
+	#move02 { opacity: 0; margin-top: 5%; }
+	#move03 { opacity: 0; margin-top: 3%; }
+
+
+	/*scroll_btn*/
+	#scroll_btn {position: fixed; bottom: 5px; right: 5px;}
+	#scroll_btn img {width: 40px;}
+	#m_br {display: none;}
+ 
+}
+}
+/*--------   Desktop(end)   -----*/

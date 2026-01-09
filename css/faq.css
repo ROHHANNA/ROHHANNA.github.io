@@ -1,0 +1,152 @@
+@charset "utf-8";
+/*CSS Document*/
+
+/*++++++++  Media Query  ++++++++*/
+/*------- Mobile(start)  -----*/
+@media screen and (max-width: 767px) {
+
+	/* ------------------------------------------------ section.sec_visual ------------------------------------------------*/
+	.faq { width: 100%;}
+	.faq .faq_banner { position: relative; height: 148px;; margin-top: 70px; background:url("../images/faq_banner_m.png")center center no-repeat; }
+	.faq .title {text-align: center; padding: 30px 0;}
+	.faq .title > span {position: relative; z-index: 0; font-size: 16px; font-family: 'NotoSansKR-Medium'; font-weight: bold;}
+	.faq .title > span::after {content:""; background-color: #76e863; width: 15px; height: 15px; position: absolute; z-index: -1; top: -2px; left: -7px;}
+	/*click*/
+	.click {position: relative; width: 100%;}
+	.click1 {float: left; width: 49.5%; margin-right: 1%; height: 40px; color: #fff; background: #464646;  border: 1px solid #ddd;text-align: center; padding-top: 8px; font-size: 14px;}
+	.click2 {float: left; width: 49.5%; height: 40px; border: 1px solid #ddd; text-align: center; padding-top: 8px; font-size: 14px;}
+	
+
+	/*click_in*/
+	.click1img {width: 100%;background: ; margin: 30px 0 25vh 0;}
+	.click1img #question {width: 100%; height: 50px; border-bottom: 1px solid #ddd;}
+	.click1img #question1 {width: 100%; height: 50px; border-bottom: 1px solid #ddd;}
+	.click1img #question2 {width: 100%; height: 50px; border-bottom: 1px solid #ddd;}
+	.click1img #question3 {width: 100%; height: 50px; border-bottom: 1px solid #ddd;}
+	.click1img #question4 {width: 100%; height: 50px; border-bottom: 1px solid #ddd;}
+	.click1img .left {float: left; width: 93%;}
+	.click1img .left span {display: inline-block;}
+	.click1img .left p {display: inline-block; padding-top: 14px; font-size: 14px; padding-left:7px; font-family: 'NotoSansKR-Medium';}
+	.click1img #q_icon {width: 24px;padding-top: 1px;}
+	.click1img .right {float: left; width: 3%; padding-top: 16px;}
+	.click1img #answer_in {font-size: 14px;}
+	.click1img #answer {display: none; width: 100%; background:#f3f3f3; padding: 20px;}
+	.click1img #answer1 {display: none; width: 100%; background:#f3f3f3; padding: 20px;}
+	.click1img #answer2 {display: none; width: 100%; background:#f3f3f3; padding: 20px;}
+	.click1img #answer3 {display: none; width: 100%; background:#f3f3f3; padding: 20px;}
+	.click1img #answer4 {display: none; width: 100%; background:#f3f3f3; padding: 20px;}
+	
+	/**/
+	.click2img {display: none; width: 100%; height: 60vh; background: #fff; padding-top: 180px;}
+	.click2img p {text-align: center;}
+
+	/*scroll_event*/
+	#move01 { opacity: 0; margin-top: 8%; }
+	#move02 { opacity: 0; margin-top: 5%; }
+	#move03 { opacity: 0; margin-top: 3%; }
+
+	/*scroll_btn*/
+	#scroll_btn {position: fixed; bottom: 5px; right: 5px;}
+	#scroll_btn img {width: 30px;}
+
+
+
+}
+/*------  Mobile(end)  ----*/
+
+/*+++++++++++++++++++++++++++++++*/
+/*-------   Tablet(start)   -----*/
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+
+	/* ------------------------------------------------ section.sec_visual ------------------------------------------------*/
+	.faq { width: 100%;}
+	.faq .faq_banner { position: relative; height: 200px;; margin-top: 70px; background:url("../images/faq_banner_t.png")center center no-repeat; }
+	.faq .title {text-align: center; padding: 40px 0;}
+	.faq .title > span {position: relative; z-index: 0; font-size: 18px; font-family: 'NotoSansKR-Medium'; font-weight: bold;}
+	.faq .title > span::after {content:""; background-color: #76e863; width: 20px; height: 20px; position: absolute; z-index: -1; top: 0px; left: -12px;}
+	/*click*/
+	.click {position: relative; width: 100%;}
+	.click1 {float: left; width: 49.5%; margin-right: 1%; height: 50px; color: #fff; background: #464646;  border: 1px solid #ddd;text-align: center; padding-top: 11px; font-size: 16px;}
+	.click2 {float: left; width: 49.5%; height: 50px; border: 1px solid #ddd; text-align: center; padding-top: 11px; font-size: 16px;}
+	
+
+	/*click_in*/
+	.click1img {width: 100%;background: ; margin: 40px 0 25vh 0;}
+	.click1img #question {width: 100%; height: 60px; border-bottom: 1px solid #ddd;}
+	.click1img #question1 {width: 100%; height: 60px; border-bottom: 1px solid #ddd;}
+	.click1img #question2 {width: 100%; height: 60px; border-bottom: 1px solid #ddd;}
+	.click1img #question3 {width: 100%; height: 60px; border-bottom: 1px solid #ddd;}
+	.click1img #question4 {width: 100%; height: 60px; border-bottom: 1px solid #ddd;}
+	.click1img .left {float: left; width: 97%;}
+	.click1img .left span {display: inline-block;}
+	.click1img .left p {display: inline-block; padding-top: 19px; font-size: 16px; padding-left:17px; font-family: 'NotoSansKR-Medium';}
+	.click1img #q_icon {width: 24px;  margin-left: 20px;}
+	.click1img .right {float: left; width: 3%; padding-top: 26px;}
+	.click1img #answer {display: none; width: 100%; background:#f3f3f3; padding: 25px;}
+	.click1img #answer1 {display: none; width: 100%; background:#f3f3f3; padding: 25px;}
+	.click1img #answer2 {display: none; width: 100%; background:#f3f3f3; padding: 25px;}
+	.click1img #answer3 {display: none; width: 100%; background:#f3f3f3; padding: 25px;}
+	.click1img #answer4 {display: none; width: 100%; background:#f3f3f3; padding: 25px;}
+	
+	/**/
+	.click2img { display: none;  width: 100%; height: 60vh; background: #fff; padding-top: 180px;}
+	.click2img p {text-align: center;}
+
+	/*scroll_btn*/
+	#scroll_btn {position: fixed; bottom: 5px; right: 5px;}
+	#scroll_btn img {width: 35px;}
+
+}
+/*---------   Tablet(end)   ----*/
+
+/*++++++++++++++++++++++++++++++++*/
+/*-------   Desktop(start)   -----*/
+@media screen and (min-width: 1025px) {
+	/* ------------------------------------------------ section.sec_visual ------------------------------------------------*/
+	.faq { width: 100%;}
+	.faq .faq_banner { position: relative; height: 330px;; margin-top: 100px; background:url("../images/faq_banner.png")no-repeat; background-size: 100%;}
+	.faq .title {text-align: center; padding: 70px 0;}
+	.faq .title > span {position: relative; z-index: 0; font-size: 26px; font-family: 'NotoSansKR-Medium'; font-weight: bold;}
+	.faq .title > span::after {content:""; background-color: #76e863; width: 20px; height: 20px; position: absolute; z-index: -1; top: 0px; left: -12px;}
+	/*click*/
+	.click {position: relative; width: 100%;}
+	.click1 {float: left; width: 49.5%; margin-right: 1%; height: 60px; color: #fff; background: #464646;  border: 1px solid #ddd;text-align: center; padding-top: 16px; font-size: 18px;}
+	.click2 {float: left; width: 49.5%; height: 60px; border: 1px solid #ddd; text-align: center; padding-top: 16px; font-size: 18px;}
+	
+
+	/*click_in*/
+	.click1img { width: 100%;background: ; margin: 50px 0 100px 0;}
+	.click1img #question {width: 100%; height: 70px; border-bottom: 1px solid #ddd;}
+	.click1img #question1 {width: 100%; height: 70px; border-bottom: 1px solid #ddd;}
+	.click1img #question2 {width: 100%; height: 70px; border-bottom: 1px solid #ddd;}
+	.click1img #question3 {width: 100%; height: 70px; border-bottom: 1px solid #ddd;}
+	.click1img #question4 {width: 100%; height: 70px; border-bottom: 1px solid #ddd;}
+	.click1img .left {float: left; width: 97%;}
+	.click1img .left span {display: inline-block;}
+	.click1img .left p {display: inline-block; padding-top: 19px; font-size: 18px; padding-left:17px; font-family: 'NotoSansKR-Medium';}
+	.click1img #q_icon {width: 24px;  margin-left: 20px;}
+	.click1img .right {float: left; width: 3%; padding-top: 26px;}
+	.click1img #answer {display: none; width: 100%; background:#f3f3f3; padding: 30px;}
+	.click1img #answer1 {display: none; width: 100%; background:#f3f3f3; padding: 30px;}
+	.click1img #answer2 {display: none; width: 100%; background:#f3f3f3; padding: 30px;}
+	.click1img #answer3 {display: none; width: 100%; background:#f3f3f3; padding: 30px;}
+	.click1img #answer4 {display: none; width: 100%; background:#f3f3f3; padding: 30px;}
+	
+	/**/
+	.click2img {display: none; width: 100%; height: 400px; background: #fff; padding-top: 180px;}
+	.click2img p {text-align: center;}
+
+
+	/*scroll_event*/
+	#move01 { opacity: 0; margin-top: 8%; }
+	#move02 { opacity: 0; margin-top: 5%; }
+	#move03 { opacity: 0; margin-top: 3%; }
+
+
+	/*scroll_btn*/
+	#scroll_btn {position: fixed; bottom: 5px; right: 5px;}
+	#scroll_btn img {width: 40px;}
+ 
+}
+}
+/*--------   Desktop(end)   -----*/

@@ -1,0 +1,48 @@
+
+@charset "utf-8";
+/*CSS Document*/
+
+/*++++++++  Media Query  ++++++++*/
+/*------- Mobile(start)  -----*/
+@media screen and (max-width: 767px) {
+	
+
+
+}
+/*---------   Moblie(end)   ----*/
+
+
+/*------- Tablet(start)  -----*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+ 
+
+
+
+
+}
+/*---------   Tablet(end)   ----*/
+
+/*++++++++++++++++++++++++++++++++*/
+/*-------   Desktop(start)   -----*/
+@media screen and (min-width: 1025px) {
+	
+	section.register_form { width: 100%; height: 818px; }
+	section.register_form > div.inner_wrap { width: 100%; height: 100%; padding-top: 70px; }
+	section.register_form > div.inner_wrap > div.register_form_info { width: 1000px; height: 600px; border: 1px solid #e7e7e7; margin: 70px auto; padding: 35px; }
+	section.register_form > div.inner_wrap > div.register_form_info > h1 { text-align: center; font-size: 25px; padding-bottom: 75px; }
+	section.register_form > div.inner_wrap > div.register_form_info th { width: 160px; font-size: 18px; font-family: 'NotoSansKR-Regular'; font-weight: 100; text-align: left; padding-right: 20px; padding-bottom: 20px; } 
+	section.register_form > div.inner_wrap td input.text { width: 417px; height: 40px; padding: 0 10px; margin-bottom: 20px; border-top: none; border-left: none; border-right: none; border-bottom: 1px solid #ddd; 
+	vertical-align: middle; margin-right: 24px; }
+	section.register_form > div.inner_wrap td input.text2 { width: 300px; height: 40px; padding: 0 10px; margin-bottom: 20px; border-top: none; border-left: none; border-right: none; border-bottom: 1px solid #ddd; 
+	vertical-align: middle; margin-right: 24px; }
+	section.register_form > div.inner_wrap td input.text_e { width: 137px; height: 40px; padding: 0 10px; margin-bottom: 20px; border-top: none; border-left: none; border-right: none; border-bottom: 1px solid #ddd; 
+	vertical-align: middle; margin-right: 24px; }
+	section.register_form > div.inner_wrap td input.text span { color: #1a3455; }
+	span.thin { font-size: 14px; color: #777; }
+	section.register_form td.id_center { padding:42px 64px 0 64px; text-align: center; }
+	section.register_form input#submit_re { width: 576px; height: 50px; border: none; background-color: #1a3455; color: #fff; }
+	input#button { width: 224px; float: left; background-color: #efefef; height: 50px; border:none; }
+
+}
+/*--------   Desktop(end)   -----*/

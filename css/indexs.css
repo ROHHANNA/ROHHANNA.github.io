@@ -1,0 +1,309 @@
+@charset "utf-8";
+/*CSS Document*/
+
+/*++++++++  Media Query  ++++++++*/
+/*------- Mobile(start)  -----*/
+@media screen and (max-width: 767px) {
+	/*-------------------------- Main _ Visual ---------------------------*/
+	.main_viusal {width: 100%;}	
+	.wraper {width: 100%; height:100%;}
+	.main_banner {width: 100%; height: 380px; position: relative; background:url("../images/main_banner.png"); margin-top:70px; background-size: cover; background-position: center center;}
+	.main_banner::after {content:""; width:100%; height:60px;background:url("../images/banner_after.png"); background-size:cover; background-position: 50% 0; position: absolute; bottom:-1px; left: 0; z-index: 50;}
+	.main_banner .title {position: absolute; height:100px; top:40%; transform: translate(0,-50%);}
+	.main_banner .title .title1 {color:#fff; font-size: 16px; font-weight: bold;font-family: 'NotoSansKR-Medium'; padding-bottom: 20px;}
+	.main_banner .title .title1_en {color:#fff; font-size: 14px;}
+	/*---------------------------- content ------------------------------*/
+	.content {width: 100%; height: 100%; padding-bottom: 20px;}
+	.content .title {text-align: center; padding-bottom: 5px;}
+	.content .title_en {position: relative; font-size: 15px; text-align:center;z-index: 0; font-family: 'NotoSansKR-Medium';font-weight: bold; }
+	.content .title_en::after {content:""; background-color: #76e863; width: 15px; height: 15px; position: absolute; z-index: -1; top: -2px; left: -7px;}
+	.content .title_en2 {display: none;}
+	.content .title_en2m {padding: 0 15px; margin-top: 20px; font-size: 13px; color: #5e5e5e; margin-bottom: 30px;}
+	.content .title_en2m .bold {color: #000; font-family: 'NotoSansKR-Medium';}
+	/*-------------------------------introduce_m-------------------------------------*/
+	.introduce {position: relative; padding-bottom:20px;}
+	.introduce img {width: 100%;}
+	/*.introduce .greenpark_introduce {position: relative; width: 49%; float: left;   margin-right: 2%;transition: box-shadow .3s; margin-bottom: 2%;}
+	.introduce .greenpark_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 45px;  transition: box-shadow .3s;}
+	.introduce .greenpark_introduce:hover {box-shadow: 0 0 10px rgba(0,0,0,.8);}
+	.introduce .greenpark_introduce .text p {color: #fff; font-size: 16px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 10px;}*/
+
+	.introduce .Postbiotics_introduce {position: relative; width: 49%; float: left; margin-right: 2%; transition: box-shadow .3s; margin-bottom: 2%;}
+	.introduce .Postbiotics_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 35px; transition: box-shadow .3s;}
+	.introduce .Postbiotics_introduce:hover {box-shadow: 0 0 10px rgba(0,0,0,.8);}
+	.introduce .Postbiotics_introduce .text p {color: #fff; font-size: 14px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 7px;}
+	
+	.introduce .service {position: relative;width: 49%; float: left; transition: box-shadow .3s; margin-bottom: 2%;}
+	.introduce .service .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 35px;  transition: box-shadow .3s;}
+	.introduce .service:hover {box-shadow: 0 0 10px rgba(0,0,0,.8);}
+	.introduce .service .text p {color: #fff; font-size: 14px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 7px;}
+
+	.introduce .livestock_introduce {position: relative; width: 49%; float: left;  transition: box-shadow .3s; margin-right: 2%;}
+	.introduce .livestock_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 35px;  transition: box-shadow .3s;}
+	.introduce .livestock_introduce:hover {box-shadow: 0 0 10px rgba(0,0,0,.8);}
+	.introduce .livestock_introduce .text p {color: #fff; font-size: 14px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 7px;}
+
+	.introduce .land_introduce {position: relative; width: 49%; float: left; transition: box-shadow .3s;}
+	.introduce .land_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 35px;  transition: box-shadow .3s;}
+	.introduce .land_introduce:hover {box-shadow: 0 0 10px rgba(0,0,0,.8);}
+	.introduce .land_introduce .text p {color: #fff; font-size: 14px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 7px;}
+	
+	.introduce2 {display :none; }
+
+		/**/
+	.title2s {font-size: 16px; margin-bottom: 9px; font-weight: bold;  font-family: 'NotoSansKR-Medium';}
+	.title2s #greens {}
+	.title2s #greens img {width: 20px; vertical-align: sub; margin-left: 3px;}
+	.title2s #normals {font-size: 12px; font-family: 'NotoSansKR-Medium';  font-weight: 300; margin-left: 10px; color:#636363;}
+	.line {width: 100%; height: 2px; background:#055223;}
+	.project {padding: 20px 0;}
+	.project div img {width: 100%;}
+	.pro_title {font-weight: bold; font-size: 14px;}
+	.pro_title2 {color:#7c7c7c; margin-top: 10px; font-size: 13px; font-weight: bold;}
+	.project .project1 {border-radius: 22px; margin-bottom: 6%; background:#fff; box-shadow: 0 0 5px rgba(0,0,0,.4);}
+	.project_products {padding: 20px;}
+	.project .project2 {border-radius: 22px; margin-bottom: 6%; background:#fff; box-shadow: 0 0 5px rgba(0,0,0,.4);}
+	.project .project3 {border-radius: 22px; background:#fff; box-shadow: 0 0 5px rgba(0,0,0,.4);}
+	
+	.btn_more {text-align: center; width: 58%; margin: 0 auto; font-size: 13px;font-family: 'NotoSansKR-Medium'; background:#fff; border: 1px solid #828282; padding: 8px 0;
+	border-radius: 30px;}
+	.btn_more a {display: block;}
+	.btn_more:hover {transition: color 0.2s linear 0s;   transition: background 0.2s linear 0s; border: 1px solid #185c37; background:#185c37; color:#fff;}
+	.btn_more:hover a {color:#fff;}
+	#ptimg {display: none;}
+
+	/*scroll_btn*/
+	#scroll_btn {position: fixed; bottom: 5px; right: 5px;}
+	#scroll_btn img {width: 30px;}
+	#tp_br {display: none;}
+	
+}
+/*------  Mobile(end)  ----*/
+
+/*+++++++++++++++++++++++++++++++*/
+/*-------   Tablet(start)   -----*/
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+
+	/*-------------------------- Main _ Visual ---------------------------*/
+	.main_viusal {width: 100%;}	
+	.wraper {width: 100%; height:100%;}
+	.main_banner {width: 100%; height: 530px; position: relative; background:url("../images/main_banner.png"); margin-top:70px; background-size: cover; background-position: center center;}
+	.main_banner::after {content:""; width:100%; height:90px;background:url("../images/banner_after.png"); background-size:cover; background-position: 50% 0; position: absolute; bottom:-1px; left: 0; z-index: 50;}
+	.main_banner .title {position: absolute; height:100px; top:37%; transform: translate(0,-50%);}
+	.main_banner .title .title1 {color:#fff; font-size: 20px; font-weight: bold;font-family: 'NotoSansKR-Medium'; padding-bottom: 20px;}
+	.main_banner .title .title1_en {color:#fff; font-size: 16px;}
+	/*---------------------------- content ------------------------------*/
+	.content {width: 100%; background:url("../images/bg_main_t.png") center center; background-size:cover; padding-bottom: 50px;}
+	.content .title {text-align: center; }
+	.content .title_en {position: relative; font-size: 20px; text-align:center;z-index: 0; font-family: 'NotoSansKR-Medium';font-weight: bold; }
+	.content .title_en::after {content:""; background-color: #76e863; width: 20px; height: 20px; position: absolute; z-index: -1; top: 1px; left: -12px;}
+	.content .title_en2 {margin-top: 20px; font-size: 16px; color: #5e5e5e; margin-bottom: 40px;}
+	.content .title_en2 .bold {color: #000; font-family: 'NotoSansKR-Medium';}
+	/*-------------------------------introduce-------------------------------------*/
+
+	.introduce {display: none; position: relative; margin: 0 auto; padding-bottom: 40px;}
+	/*.introduce .greenpark_introduce {position: relative; width: 32%; float: left;   margin-right: 2%;transition: box-shadow .3s; margin-bottom: 2%;}
+	.introduce .greenpark_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 50px;  transition: box-shadow .3s;}
+	.introduce .greenpark_introduce:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce .greenpark_introduce .text p {color: #fff; font-size: 16px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 12px;}*/
+
+	.introduce .Postbiotics_introduce {position: relative; width: 48.5%; float: left;   margin-right: 3%; transition: box-shadow .3s; margin-bottom: 3%;}
+	.introduce .Postbiotics_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 40px;  transition: box-shadow .3s;}
+	.introduce .Postbiotics_introduce:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce .Postbiotics_introduce .text p {color: #fff; font-size: 16px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 7px;}
+	
+	.introduce .service {position: relative;width: 48.5%; float: left; transition: box-shadow .3s;}
+	.introduce .service .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 40px;  transition: box-shadow .3s;}
+	.introduce .service:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce .service .text p {color: #fff; font-size: 16px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 7px;}
+
+	.introduce .livestock_introduce {position: relative; width: 48.5%; float: left;   margin-right: 3%;transition: box-shadow .3s;}
+	.introduce .livestock_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 40px;  transition: box-shadow .3s;}
+	.introduce .livestock_introduce:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce .livestock_introduce .text p {color: #fff; font-size: 16px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 7px;}
+
+	.introduce .land_introduce {position: relative; width: 48.5%; float: left; transition: box-shadow .3s;}
+	.introduce .land_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 40px;  transition: box-shadow .3s;}
+	.introduce .land_introduce:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce .land_introduce .text p {color: #fff; font-size: 16px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 7px;}
+
+	.introduce img {width:100%;}
+
+		/*introduce2*/
+	.introduce2 {margin-bottom: 40px;}
+
+	/*.introduce2 .greenpark_introduce {position: relative; width: 19.6%; margin-right: 0.5%; float: left;  transition: box-shadow .3s; margin-bottom: 2%;}
+	.introduce2 .greenpark_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.4); width: 100%; height: 70px;  transition: box-shadow .3s;}
+	.introduce2 .greenpark_introduce:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce2 .greenpark_introduce .text p {color: #fff; font-size: 20px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 20px;}*/
+
+	.introduce2 .Postbiotics_introduce {position: relative; width:  24.25%; margin-right: 1%; float: left;  transition: box-shadow .3s;}
+	.introduce2 .Postbiotics_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.4); width: 100%; height: 50px;  transition: box-shadow .3s;}
+	.introduce2 .Postbiotics_introduce:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce2 .Postbiotics_introduce .text p {color: #fff; font-size: 16px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 13px;}
+	
+	.introduce2 .service {position: relative;width: 24.25%; margin-right: 1%; float: left; transition: box-shadow .3s;}
+	.introduce2 .service .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.4); width: 100%; height: 50px;  transition: box-shadow .3s;}
+	.introduce2 .service:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce2 .service .text p {color: #fff; font-size: 16px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 13px;}
+
+	.introduce2 .livestock_introduce {position: relative; width:  24.25%; margin-right: 1%;float: left; transition: box-shadow .3s;}
+	.introduce2 .livestock_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.4); width: 100%; height: 50px;  transition: box-shadow .3s;}
+	.introduce2 .livestock_introduce:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce2 .livestock_introduce .text p {color: #fff; font-size: 16px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 13px;}
+
+	.introduce2 .land_introduce {position: relative; width: 24.25%; float: left; transition: box-shadow .3s;}
+	.introduce2 .land_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.4); width: 100%; height: 50px;  transition: box-shadow .3s;}
+	.introduce2 .land_introduce:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce2 .land_introduce .text p {color: #fff; font-size: 16px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 13px;}
+
+	.introduce2 img {width:100%;}
+
+		/**/
+	.title2s {font-size: 20px; margin-bottom: 9px; font-weight: bold;  font-family: 'NotoSansKR-Medium';}
+	.title2s #greens {}
+	.title2s #greens img {width: 24px; vertical-align: sub; margin-left: 5px;}
+	.title2s #normals {font-size: 14px; font-family: 'NotoSansKR-Medium';  font-weight: 300; margin-left: 10px; color:#636363;}
+	.line {width: 390px; height: 2px; background:#055223;}
+	.project {padding: 40px 0;}
+	.project div img {width: 100%;}
+	.pro_title {font-weight: bold; font-size: 15px;}
+	.pro_title2 {color:#7c7c7c; margin-top: 20px; font-size: 14px; font-weight: bold;}
+	.project .project1 {float: left; border-radius: 22px; width: 32%; margin-right: 2%; background:#fff; box-shadow: 0 0 7px rgba(0,0,0,.4);}
+	.project_products {padding: 20px;}
+	.project .project2 {float: left; border-radius: 22px; width: 32%; margin-right: 2%; background:#fff; box-shadow: 0 0 7px rgba(0,0,0,.4);}
+	.project .project3 {float: left; border-radius: 22px; width: 32%; background:#fff; box-shadow: 0 0 7px rgba(0,0,0,.4);}
+	
+	.btn_more {text-align: center; width: 22%; margin: 0 auto; font-family: 'NotoSansKR-Medium'; font-size: 15px; background:#fff; border: 1px solid #828282; padding: 10px 0;
+	border-radius: 30px;}
+	.btn_more a {display: block;}
+	.btn_more:hover {transition: color 0.2s linear 0s;   transition: background 0.2s linear 0s; border: 1px solid #185c37; background:#185c37; color:#fff;}
+	.btn_more:hover a {color:#fff;}
+	#m_br {display: none;}
+	#mimg {display: none;}
+
+    
+	/*scroll_btn*/
+	#scroll_btn {position: fixed; bottom: 5px; right: 5px;}
+	#scroll_btn img {width: 35px;}
+	#m_br {display: none;}
+	.introduce_m {display: none;}
+	.title_en2m {display: none;}
+}
+/*---------   Tablet(end)   ----*/
+
+/*++++++++++++++++++++++++++++++++*/
+/*-------   Desktop(start)   -----*/
+@media screen and (min-width: 1025px) {
+	
+
+	.inners_wrap {width: 100%; max-width: 1410px; margin: 0 auto; padding: 0 70px;}
+	/*-------------------------- Main _ Visual ---------------------------*/
+	.main_viusal {width: 100%;}
+	.wraper {width: 100%; height:100%;}
+	.main_banner {width: 100%; height: 660px; position: relative; background:url("../images/main_banner.png"); margin-top:100px; background-size: cover; background-position: center center;}
+	.main_banner::after {content:""; width:100%; height:90px;background:url("../images/banner_after.png"); background-size:cover; background-position: 50% 0; position: absolute; bottom:0; left: 0; z-index: 50;}
+	.main_banner .title {position: absolute; height:100px; top:40%; transform: translate(0,-50%);}
+	.main_banner .title .title1 {color:#fff; font-size: 28px; font-weight: bold;font-family: 'NotoSansKR-Medium'; padding-bottom: 30px;}
+	.main_banner .title .title1_en {color:#fff; font-size: 20px;}
+	/*---------------------------- content ------------------------------*/
+	.contents {width: 100%; background:url("../images/bg_main.png") no-repeat; padding-bottom: 100px;}
+	.content .title {text-align: center; padding-top: 80px;}
+	.content .title_en {position: relative; font-size: 28px; text-align:center;z-index: 0; font-family: 'NotoSansKR-Medium';font-weight: bold; }
+	.content .title_en::after {content:""; background-color: #76e863; width: 20px; height: 20px; position: absolute; z-index: -1; top: 1px; left: -12px;}
+	.content .title_en2 {margin-top: 40px; font-size: 18px; color: #5e5e5e; margin-bottom: 70px;}
+	.content .title_en2 .bold {color: #000; font-family: 'NotoSansKR-Medium';}
+	/*-------------------------------introduce-------------------------------------*/
+
+	.introduce {display: none; position: relative;}
+	.introduce .greenpark_introduce {position: relative; width: 32%; float: left;   margin-right: 2%;transition: box-shadow .3s; margin-bottom: 2%;}
+	.introduce .greenpark_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 90px;  transition: box-shadow .3s;}
+	.introduce .greenpark_introduce:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce .greenpark_introduce .text p {color: #fff; font-size: 20px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 30px;}
+
+	.introduce .Postbiotics_introduce {position: relative; width: 32%; float: left;   margin-right: 2%;transition: box-shadow .3s;margin-bottom: 2%;}
+	.introduce .Postbiotics_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 90px;  transition: box-shadow .3s;}
+	.introduce .Postbiotics_introduce:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce .Postbiotics_introduce .text p {color: #fff; font-size: 20px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 30px;}
+	
+	.introduce .service {position: relative;width: 32%; float: left; transition: box-shadow .3s;}
+	.introduce .service .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 90px;  transition: box-shadow .3s;}
+	.introduce .service:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce .service .text p {color: #fff; font-size: 20px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 30px;}
+
+	.introduce .livestock_introduce {position: relative; margin-left: 17%; width: 32%; float: left;   margin-right: 2%;transition: box-shadow .3s;}
+	.introduce .livestock_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 90px;  transition: box-shadow .3s;}
+	.introduce .livestock_introduce:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce .livestock_introduce .text p {color: #fff; font-size: 20px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 30px;}
+
+	.introduce .land_introduce {position: relative; margin-right: 17%; width: 32%; float: left;   margin-right: 2%;transition: box-shadow .3s;}
+	.introduce .land_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); width: 100%; height: 90px;  transition: box-shadow .3s;}
+	.introduce .land_introduce:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce .land_introduce .text p {color: #fff; font-size: 20px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 30px;}
+
+	.introduce img {width:100%;}
+
+
+	/*introduce2*/
+	.introduce2 {margin-bottom: 80px;}
+
+	/*.introduce2 .greenpark_introduce {position: relative; width: 19.6%; margin-right: 0.5%; float: left;  transition: box-shadow .3s; margin-bottom: 2%;}
+	.introduce2 .greenpark_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.4); width: 100%; height: 70px;  transition: box-shadow .3s;}
+	.introduce2 .greenpark_introduce:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce2 .greenpark_introduce .text p {color: #fff; font-size: 20px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 20px;}*/
+
+	.introduce2 .Postbiotics_introduce {position: relative; width:  24.25%; margin-right: 1%; float: left;  transition: box-shadow .3s;}
+	.introduce2 .Postbiotics_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.4); width: 100%; height: 70px;  transition: box-shadow .3s;}
+	.introduce2 .Postbiotics_introduce:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce2 .Postbiotics_introduce .text p {color: #fff; font-size: 20px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 20px;}
+	
+	.introduce2 .service {position: relative;width: 24.25%; margin-right: 1%; float: left; transition: box-shadow .3s;}
+	.introduce2 .service .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.4); width: 100%; height: 70px;  transition: box-shadow .3s;}
+	.introduce2 .service:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce2 .service .text p {color: #fff; font-size: 20px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 20px;}
+
+	.introduce2 .livestock_introduce {position: relative; width:  24.25%; margin-right: 1%;float: left; transition: box-shadow .3s;}
+	.introduce2 .livestock_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.4); width: 100%; height: 70px;  transition: box-shadow .3s;}
+	.introduce2 .livestock_introduce:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce2 .livestock_introduce .text p {color: #fff; font-size: 20px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 20px;}
+
+	.introduce2 .land_introduce {position: relative; width: 24.25%; float: left; transition: box-shadow .3s;}
+	.introduce2 .land_introduce .text {position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.4); width: 100%; height: 70px;  transition: box-shadow .3s;}
+	.introduce2 .land_introduce:hover {box-shadow: 0 0 13px rgba(0,0,0,.8);}
+	.introduce2 .land_introduce .text p {color: #fff; font-size: 20px; font-family: 'NotoSansKR-Medium'; text-align: center; padding-top: 20px;}
+
+	.introduce2 img {width:100%;}
+
+
+	/**/
+	.title2s {font-size: 24px; margin-bottom: 15px; font-weight: bold;  font-family: 'NotoSansKR-Medium';}
+	.title2s #greens {}
+	.title2s #greens img {width: 27px; vertical-align: sub; margin-left: 5px;}
+	.title2s #normals {font-size: 16px; font-family: 'NotoSansKR-Medium';  font-weight: 300; margin-left: 15px; color:#636363;}
+	.line {width: 452px; height: 2px; background:#055223;}
+	.project {padding: 80px 0 50px 0;}
+	.project div img {width: 100%;}
+	.pro_title {font-weight: bold;}
+	.pro_title2 {color:#7c7c7c; margin-top: 20px; font-size: 15px; font-weight: bold;}
+	.project .project1 {float: left; border-radius: 22px; width: 32%; margin-right: 2%; background:#fff; box-shadow: 0 0 7px rgba(0,0,0,.4);}
+	.project_products {padding: 30px;}
+	.project .project2 {float: left; border-radius: 22px; width: 32%; margin-right: 2%; background:#fff; box-shadow: 0 0 7px rgba(0,0,0,.4);}
+	.project .project3 {float: left; border-radius: 22px; width: 32%; background:#fff; box-shadow: 0 0 7px rgba(0,0,0,.4);}
+	
+	.btn_more {text-align: center; width: 200px; font-family: 'NotoSansKR-Medium'; margin: 0 auto; font-size: 17px; background:#fff; border: 1px solid #828282; padding: 10px 0;
+	border-radius: 30px;}
+	.btn_more a {display: block;}
+	.btn_more:hover {transition: color 0.2s linear 0s;   transition: background 0.2s linear 0s; border: 1px solid #185c37; background:#185c37; color:#fff;}
+	.btn_more:hover a {color:#fff; font-family: 'NotoSansKR-Regular';}
+	#m_br {display: none;}
+	#mimg {display: none;}
+
+
+	/*scroll_btn*/
+	#scroll_btn {position: fixed; bottom: 5px; right: 5px;}
+	#scroll_btn img {width: 40px;}
+	#m_br {display: none;}
+	.introduce_m {display: none;}
+	.title_en2m {display: none;}
+}
+/*--------   Desktop(end)   -----*/

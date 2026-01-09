@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>	
+	<meta charset="utf-8">
+	<title>(주)제이케이그린파크</title>
+	<meta name ="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:image" content="images/main_banner.png">
+	<meta property="og:description" content="포스트바이오틱스·트러블노·골프장·수산·축산·임농업">
+	<link rel="shortcut icon" href="images/favicon2.png">
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/common.css" type="text/css">	
+	<link rel="stylesheet" href="css/company.css" type="text/css">
+	<!-- [if lt IE 9]
+		<script src="js/html5shiv.js"></script>
+	<![emdif] -->	
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/postbiotics.js"></script>
+	
+	<script>
+		$(document).ready(function(){	
+			$("nav.nav_01 > ul.nav_02").mouseenter(function(){ 
+					$(this).toggleClass('on');
+			});
+			$("nav.nav_01 > ul.nav_02").mouseleave(function(){ 
+					$(this).toggleClass('on');
+			});
+		});
+
+	
+	</script>
+</head>
+	
+<body>
+	
+<header class="header1">
+		<div class="inno_wrap">
+			<h1><a href="index.html"><img src="images/greenpark.png" alt=""></a></h1>
+			<div class="nav_bg"></div>
+			<nav class="nav_01 clearfix">
+				<ul class="nav_02 clearfix">
+					<li>
+						<a href="#">그린파크 소개</a>
+						<ul class="clearfix">
+							<li><a id="first_menu"href="company.html"  class="first">그린파크 / 연구소 소개</a></li>	
+							<li><a href="map.html">찾아오시는 길</a></li>
+							<li><a href="application.html">트러블노 적용사례</a></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</li> <!-- 
+					--><li>
+						<a href="#">포스트바이오틱스</a>
+						<ul class="clearfix">
+							<li><a id="first_menu2"href="postbiotics.html"  class="first">포스트바이오틱스</a></li>
+							<li><a href="golf.html">골프장</a></li>
+							<li><a href="fisheries.html">수산</a></li>
+							<li><a href="livestock.html">축산</a></li>
+						    <li><a href="landscape.html">임·농업</a></li>
+							<li></li>
+						</ul>
+					</li><!-- 
+					--><li>
+						<a href="#">고객센터</a>
+						<ul class="clearfix">
+							<li id="first_menu3"class="last"><a href="faq.html" class="first">자주묻는 질문</a></li>
+							<li><a href="faq.html">공지사항</a></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</li>		
+				</ul>
+			<!--tablet_moblie-->
+			<div class="langse">
+			<select onchange="if(this.value) location.href=(this.value);">
+					<option value="#">한국어</option>
+					<option value="#">English</option>
+			</select>
+			</div>
+			</nav>
+			<!--pc-->
+			<div class="langs">
+			<select onchange="if(this.value) location.href=(this.value);">
+					<option value="#">한국어</option>
+					<option value="#">English</option>
+			</select>
+			</div>
+			<!---->
+			</div>
+			</div>
+			<!--<button class="btn_back">Memu</button>-->
+			<button class="btn_menu_toggle off">Memu</button>
+	</header>
+
+	<section class="company"> 
+		<div class="company_banner"></div>
+		<div class="inner_wrap">
+		<!--title-->
+		<div class="title">
+			<span>그린파크 소개</span>
+		</div>
+		<div class="company_intro">
+				<p class="company_in">				
+				기초의학 지식을 바탕으로 포스트바이오틱스를 다양한 분야에 접목하여<br id="pt_br">
+				자연 친화적 솔루션을 제공하는 기업, <br id="m_br"><span>주식회사 제이케이 그린파크</span>
+				</p>
+		</div>
+		<!---->
+		</div>
+	</section>
+
+	<section>
+		<div class="vision">
+			<div class="inner_wrap">
+				<div class="vision_in clearfix">
+					<div id="margin">
+						<img src="images/company_img1.png" alt="">
+						<p class='titles' >토양 관리</p>
+						<p class='titles_en'>다음 세대를 위한 건강한 토양</p>
+					</div>
+					<div id="margin">
+						<img src="images/company_img2.png" alt="">
+						<p class='titles'>가축 관리</p>
+						<p class='titles_en'>친환경적인 방법으로 생산성 증대</p>
+					</div>
+					<div id="margin">
+						<img src="images/company_img3.png" alt="">
+						<p class='titles'>수질 관리</p>
+						<p class='titles_en'>유기물을 분해하여 악취관리 및 심미성 개선</p>
+					</div>
+					<div id="three">
+						<img src="images/company_img4.png" alt="">
+						<p class='titles'>친환경</p>
+						<p class='titles_en'>뿌리·잎·꽃 생착과 활성화에 탁월한 효과</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="laboratory">
+		<div class="inner_wrap">
+			<div class="title">
+				<p>연구실</p>
+			</div>
+		<div class="laboratory_img clearfix">
+			<img src="images/laboratorys1.png" alt="">
+			<img src="images/laboratorys2.png" alt="">
+		</div>
+		</div>
+	</section>
+	
+	<!--scroll button-->
+	<button type="button" onclick="$('html').animate({scrollTop : 0}, 500)" id="scroll_btn"><img src="images/scroll_btn.png"></button>
+	<!---->
+
+	<footer>
+		<div class="inner_wrap clearfix">
+		<ul class="f_mune">
+				<li class="pc_agree"><a href="#"><strong>개인정보처리방침</strong></a></li>
+				<!--<select onchange="if(this.value) location.href=(this.value);">
+					<option value="http://jkgr.co.kr/">FAMILY SITE</option>
+
+				</select>-->
+			</ul>
+
+			<p class="m_agree"><a href="#"><strong>개인정보처리방침</strong></a></p>
+			<div class="info">
+				<p>경기도 안양시 동안구 흥안대로 427번길 72, 4층( 관양동, 문화스마트 빌딩 )</p>
+				<p>TEL : 070 - 4473 - 8177 / FAX : 031 - 424 - 1588</p>
+				<p>COPYRIGHT © 2020 JK GROUP CO.,LTD ALL RIGHTS RESERVED. </p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
